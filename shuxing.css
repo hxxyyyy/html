@@ -1,6 +1,132 @@
-h1{
-    color: brown;
+.qb0{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+
+    min-width: 1200px;
+
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+
+    width: 1901px;
+    height: 2486px;
 }
-p{
+.d1{
+    color: brown;
+    float: left;
+    font-size: 12px;
+    line-height: 30px;
+
+    margin: 0;
+    padding: 0;
+
+    width: 125px;
+    height: 30px;
+}
+
+.d2{
+    color: brown;
+    float: left;
+    font-size: 12px;
+    line-height: 30px;
+
+    width: 45px;
+    height: 30px;
+
+}
+.d3{
+    color: brown;
+    float: left;
+    font-size: 12px;
+    line-height: 30px;
+   
+    width: 30px;
+    height: 30px;
+}
+.d4{
+
+    font-size: 12px;
+    line-height: 30px;
+
+
+    float: right;
     
+    text-align: center;
+
+    width: 65px;
+    height: 30px;
+
+    padding-right: 13px;
+ 
+}
+
+i{  
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -2px;
+    display: inherit;
+    width: 8px;
+    height: 5px;
+    background:url(https://www.fcbox.com/images/default/icon/angle-arrow.png)
+}
+img{
+    float: left;
+    
+}
+
+.qd0{
+    
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+
+    width: 1901px;
+    height: 30px;
+
+    position: relative;
+}
+
+.qb1{
+    width: 1901px;
+    height: 110px;
+
+}
+.qd2{
+
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    
+    width: 1200px;
+    height: 30px;
+
+    position: relative;
+}
+
+.qb3{
+
+    height: 30px;
+}
+
+.qx1{
+    float: left;
+
+    width: 200px;
+    height:30px;
+
+}
+
+.qx2{
+    float: right;
+
+    width: 80px;
+    height:30px;
 }
