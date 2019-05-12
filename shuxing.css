@@ -130,3 +130,40 @@ img{
     width: 80px;
     height:30px;
 }
+
+.b1{
+    width: 150px;
+
+}
+
+.ll1{
+    float: left;
+    list-style:none;
+    width: 30px;
+}
+.ll2{
+    float: left;
+    list-style:none;
+    width: 30px;
+
+}
+.ll3{
+    float: left;
+    list-style:none;
+    width: 30px;
+}
+
+.ll4{
+    float: left;
+    list-style:none;
+    width: 30px;
+}
+
+.bt1{
+    width: 150px;
+}
+#q2{
+    float: left;
+    list-style:none;
+    width: 30px;
+}
