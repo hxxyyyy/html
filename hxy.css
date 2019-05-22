@@ -1,42 +1,66 @@
 body {
-  font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+  font: 14px/1.5 "Helvetica Neue",
+                 Helvetica,Arial,"Microsoft Yahei",
+                 "Hiragino Sans GB","Heiti SC",
+                 "WenQuanYi Micro Hei",sans-serif;
+
+    width: 1901px;
+    height: 7130px;
+
     color: #333;
     background-color: #fff;
-    min-width: 1226px;
     margin: 0;
 
-    display: block;
 }
 .dbt1{
   position: relative;
   z-index: 30;
   height: 40px;
+  
   font-size: 12px;
   color: #b0b0b0;
   background: #333;
 }
-.dbt1 .zuobiao{
-  float: left;
-  height: 40px;
-  line-height: 40px;
+
+.bt1{
+  width: 1901px;
+  height: 100px;
 }
-.dbt1 a{
-  color: #b0b0b0;
-    line-height: 40px;
-    display: inline-block;
+.zuobiao{
+  width:1226px;
+  height:100px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
 }
-a{
-  text-decoration: none;
+.zuobiao::before{
+  content: " ";
+  display: table;
 }
-.dbt1 .zuobiao{
-  float: left;
-  height: 40px;
-  line-height: 40px;
+.bt1 .logo::before{
+    background: url(../i/mi-logo.png) no-repeat 50% 50%;
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
 }
-.dbt1 .dbt2{
-  width: 120px;
-  margin-left: 15px;
-  position:relative;
-  float: right;
-  height:40px;
+.bt1 .logo::before, .bt1 .logo::after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 55px;
+    height: 55px;
+    content: '';
+    transform-origin: 50% 50%;
+    transition: all .2s;
+}
+.quanlogo{
+ 
+}
+.xiulogo{
+
+}
+.quanlogo .xiulogo{
+    float: left;
+    width: 62px;
+    margin-top: 22px;
 }
